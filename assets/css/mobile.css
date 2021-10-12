@@ -278,6 +278,10 @@
     flex-direction: column;
   }
 
+  .conheca .conheca-nossos-cursos-titulo h1 {
+      font-size: 35px;
+  }
+
   .bloco-conheca-nossos-cursos:first-child img {
     width: 60%;
     height: auto;

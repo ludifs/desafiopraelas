@@ -658,12 +658,15 @@ header .header-container ul li:nth-child(2) {
     background-color: #F6F6F6;
 }
 
-.conheca h1 {
+.conheca .conheca-nossos-cursos-titulo {
+    text-align: center;
+    padding: 79px 0px 101px 0px;
+}
+
+.conheca .conheca-nossos-cursos-titulo h1 {
     font-weight: 500;
     font-size: 50px;
     color: var(--rosa);
-    margin-top: 79px;
-    margin-bottom: 101px;
 }
 
 .conheca-nossos-cursos {
