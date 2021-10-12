@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <title>DINDIN</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><img src="./dindin-imagens/logo-header.png" alt="Logo dindin"></a>
+                </div>
+                <div class="menu-desktop">
+                    <nav role="navigation">
+                        <ul role="menu">
+                            <li>
+                                <a href="cursos.html" role="menuitem">CURSOS</a>
+                            </li>
+                            <li>
+                                <a href="blog.html" role="menuitem">BLOG</a>
+                            </li>
+                            <li>
+                                <a href="contato.html" role="menuitem">CONTATO</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                </div>
+        <!-- Menu do Mobile -->
+        <div class="header-mobile">
+            <div class="logo">
+                <a href="index.html"><img src="./dindin-imagens/logo-header.png" alt="Logo dindin"></a>
+            </div>
+            <div id="menu-mobile">
+                <ul role="menu">
+                    <li>
+                        <a href="cursos.html" role="menuitem">CURSOS</a>
+                    </li>
+                    <li>
+                        <a href="blog.html" role="menuitem">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" role="menuitem">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="abrirMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="bloco-contato">
+        <div class="formulario">
+            <h1>Contato</h1>
+            <form action="#" method="get">
+                <div>
+                    <input type="text" id="nome" placeholder="nome">
+                </div>
+                <div>
+                    <input type="email" id="email" placeholder="email">
+                </div>
+                <div>
+                    <input type="text" id="mensagem" placeholder="mensagem">
+                </div>
+                <div>
+                    <button class="botao-formulario" type="submit">entrar</button>
+                </div>
+            <!-- <input type="text" name="" id="" placeholder="nome">
+            <input type="text" name="" id="" placeholder="email">
+            <input type="text" name="" id="mensagem" placeholder="mensagem">
+            <button class="botao-formulario">entrar</button> -->
+        </div>
+        <div class="contato-imagem">
+            <img src="./dindin-imagens/ilustra-contato.png" alt="">
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-coluna">
+                <a href="index.html"><img src="./dindin-imagens/logo-footer.png" alt=""></a>
+                </div>
+                <div class="footer-coluna">
+                    <ul>
+                        <li><a href="cursos.html" role="menuitem">cursos</a></li>
+                        <li><a href="blog.html" role="menuitem">blog</a></li>
+                        <li><a href="contato.html" role="menuitem">contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-coluna">
+                    <button>quero ser prof</button>
+                    <button>aqui tem outro link</button>
+                </div>
+                </div>
+    </footer>
+    <script>
+        function abrirMenu() {
+            var x = document.getElementById("menu-mobile");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    </body>
+    
+    </html>
