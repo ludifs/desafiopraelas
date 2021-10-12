@@ -1,0 +1,559 @@
+.header-mobile {
+  display: none;
+}
+
+/* -- Menu Mobile e Tablet -- */
+
+@media (max-width: 767px) {
+  .header-container {
+    display: none;
+  }
+
+  .header-mobile {
+    display: block;
+  }
+
+  #menu-mobile {
+    display: none;
+  }
+
+  .logo {
+    padding-left: 10px;
+  }
+
+  .logo img {
+    max-width: 160px;
+  }
+
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .header-mobile {
+    overflow: hidden;
+    position: relative;
+    padding: 20px 10px 20px 10px;
+    color: #fff;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+  }
+
+  .header-mobile a {
+    color: white;
+    padding: 14px 16px;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+  }
+
+  .header-mobile ul {
+    list-style: none;
+  }
+
+  .header-mobile a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    top: 35px;
+    padding-right: 25px;
+  }
+
+  .header-mobile ul li a:hover {
+    color: #2d7067;
+  }
+
+  .active {
+    color: #fff;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 50px 20px 40px 20px;
+    height: 100%;
+  }
+
+  .footer-coluna ul {
+    text-align: center;
+  }
+
+  .footer-coluna ul li {
+    display: inline;
+    padding-left: 20px;
+  }
+
+  .footer-coluna button {
+    width: 100%;
+  }
+
+  .footer-coluna:first-child {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .footer-coluna:nth-child(2) {
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .footer-coluna:last-child {
+    width: 100%;
+  }
+
+  .footer-coluna img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.cursos hr {
+    width: 100%;
+}
+
+  .intro-curso {
+    flex-direction: column;
+    padding: 0px 20px 40px 20px;
+  }
+
+  .intro-curso-texto {
+    padding-top: 40px;
+  }
+
+  .intro-curso-texto h1 {
+    font-size: 40px;
+  }
+
+  .intro-curso-imagem {
+    margin-top: 40px;
+  }
+
+  .intro-curso-imagem img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .intro-curso-texto p {
+    width: 100%;
+    padding-bottom: unset;
+    text-align: justify;
+  }
+
+  .aulas {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .bloco-aulas {
+    flex-direction: column;
+  }
+
+  .bloco-aulas-textos {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .bloco-aulas-textos h3 {
+    text-align: left;
+    padding-top: 20px;
+  }
+
+  .retangulo {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* -- Página Cursos -- */
+
+  .intro-cursos {
+    padding: 30px 0px 22px 20px;
+  }
+
+  .bloco-cursos {
+    flex-direction: column;
+  }
+
+  .bloco-cursos-imagem img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .bloco-cursos-textos {
+    width: 90%;
+    padding: 0px 20px 30px 20px;
+  }
+
+  .bloco-cursos-textos p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 20px 30px 20px;
+    line-height: 21px;
+  }
+
+  .bloco-cursos-imagem {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .bloco-cursos-textos h3 {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .bloco-cursos-textos p {
+    padding: 10px 0px 30px 0px;
+  }
+
+  .bloco-cursos:last-child {
+    padding-bottom: 80px;
+  }
+
+  /* -- Página Inicial -- */
+
+  .intro-inicio {
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .intro-inicio-imagem {
+    margin-top: 30px;
+  }
+
+  .intro-inicio-texto {
+    padding-top: 55px;
+  }
+
+  .intro-inicio-texto h1 {
+    font-size: 45px;
+  }
+
+  .intro-inicio-imagem img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .conheca {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .conheca-nossos-cursos {
+    flex-direction: column;
+  }
+
+  .bloco-conheca-nossos-cursos:first-child img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .bloco-conheca-nossos-cursos:nth-child(2) img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .bloco-conheca-nossos-cursos:last-child img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .bloco-conheca-nossos-cursos-textos p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+  }
+
+  .bloco-conheca-nossos-cursos-textos h3 {
+    font-size: 30px;
+  }
+
+  .home-falam-sobre-nos {
+    padding: 50px 20px 30px 20px;
+  }
+
+  .falam-sobre-nos {
+    flex-direction: column;
+  }
+
+  .bloco-falam-sobre-nos {
+    padding: 0px 0px 60px 0px;
+  }
+
+  .blocos-conteudo {
+    flex-direction: column;
+  }
+
+  .mais-conteudo {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .bloco-mais-conteudo {
+    padding: 0px 10px 40px 10px;
+  }
+
+  .mais-conteudo h2 {
+    padding: 70px 0px 50px 10px;
+  }
+
+  .bloco-mais-conteudo-textos h3 {
+    padding: 12px 0px 20px 0px;
+  }
+
+  .botao-mais-conteudo {
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+
+  /* Página de Contato */
+
+  .bloco-contato {
+    flex-direction: column;
+    padding: 50px 20px 50px 20px;
+  }
+
+  .formulario h1 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  form {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .botao-formulario {
+    margin-bottom: 0px;
+  }
+
+  .contato-imagem img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    justify-content: center;
+  }
+
+  /* Página BLOG */
+
+  .intro-blog {
+    flex-direction: column;
+    padding: 50px 20px 0px 20px;
+  }
+
+  .intro-blog-texto {
+    padding-top: 0px;
+  }
+
+  .intro-blog-texto p {
+    width: 100%;
+  }
+
+  .intro-blog-imagem img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .blog-conteudos {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: none;
+  }
+
+  /* Página Post */
+
+  .intro-post {
+    padding-top: 50px;
+  }
+
+  .conteudo {
+    padding: 0px 20px 0px 20px;
+  }
+  .conteudo-post {
+    margin-bottom: 40px;
+  }
+
+  .imagem-post {
+    width: 100%;
+    height: 261px;
+    margin-bottom: 30px;
+  }
+
+  .conteudo-post {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-bottom: 50px;
+  }
+
+  .blog {
+    padding: 9px 20px 120px 20px;
+  }
+
+  .imagem-blog {
+    width: 100%;
+  }
+
+  .bloco-blog-textos p {
+    width: 100%;
+  }
+
+
+
+}
+
+/* Tablets */
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  
+/* Header Tablet */
+  .logo {
+    padding-left: 40px;
+}
+
+/* Blog Tablet */
+
+.intro-blog {
+    flex-direction: row;
+    max-width: 600px;
+        padding: 40px 0px 80px 0px;
+}
+
+.intro-blog-texto p {
+    width: 100%;
+}
+
+
+.bloco-blog {
+padding: 100px 20px 0px 20px;
+}
+
+.bloco-blog-textos p {
+    width: 100%;
+}
+
+
+
+.intro-blog-imagem {
+    margin: 0px 0px 0px;
+        width: 100%;
+        padding: 20px 0px 0px 40px;
+}
+
+.imagem-blog {
+    width: 100%;
+}
+
+.intro-blog-texto {
+    max-width: 60%;
+    padding-top: 40px;
+}
+
+/* Contato Tablet */
+
+.bloco-contato {
+    flex-direction: row;
+}
+
+.bloco-contato input {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 7px;
+    width: 70%;
+}
+
+/* Cursos Tablet */
+
+.cursos hr {
+    width: 100%;
+}
+
+.intro-cursos {
+    padding: 61px 0px 55px 82px;
+}
+
+.cursos {
+    max-width: 700px;
+}
+
+.bloco-cursos-textos p {
+    width: 510px;
+}
+
+.bloco-cursos:last-child {
+    margin: 93px 0px 100px 0px;
+}
+
+  /* Post Único */
+
+  .conteudo-post {
+    width: 100%;
+}
+
+.imagem-post {
+    width: 100%;
+}
+
+.intro-post {
+padding: 60px 20px 0px 20px;
+}
+
+
+
+
+/* Footer Tablet */
+
+.footer-coluna img {
+    padding-left: 40px;
+    max-width: 240px;
+}
+
+.footer-coluna:first-child {
+    width: 40%;
+    padding-left: 0px;
+}
+
+.footer-coluna:nth-child(2) {
+    width: 20%;
+}
+
+.footer-coluna:last-child {
+    width: 40%;
+}
+
+}
+
