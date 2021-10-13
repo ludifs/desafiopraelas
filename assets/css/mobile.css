@@ -70,7 +70,7 @@
     color: #fff;
   }
 
-  /* -- Footer Mobile -- */
+  /* Footer Mobile */
 
   .footer-container {
     display: flex;
@@ -113,7 +113,7 @@
     width: 50%;
   }
 
-  /* -- Início Mobile -- */
+  /* Início Mobile */
 
   .intro-inicio {
     flex-direction: column;
