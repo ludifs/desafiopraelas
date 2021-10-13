@@ -1,10 +1,8 @@
-.header-mobile {
-  display: none;
-}
-
-/* -- Menu Mobile e Tablet -- */
+/* Mobile */
 
 @media (max-width: 767px) {
+  /* Header Mobile */
+
   .header-container {
     display: none;
   }
@@ -72,6 +70,8 @@
     color: #fff;
   }
 
+  /* -- Footer Mobile -- */
+
   .footer-container {
     display: flex;
     flex-direction: column-reverse;
@@ -113,136 +113,7 @@
     width: 50%;
   }
 
-  .cursos hr {
-    width: 100%;
-  }
-
-  .intro-curso {
-    flex-direction: column;
-    padding: 0px 20px 40px 20px;
-  }
-
-  .intro-curso-texto {
-    padding-top: 40px;
-  }
-
-  .intro-curso-texto h1 {
-    font-size: 40px;
-  }
-
-  .intro-curso-imagem {
-    margin-top: 40px;
-  }
-
-  .intro-curso-imagem img {
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-  }
-
-  .intro-curso-texto p {
-    width: 100%;
-    padding-bottom: unset;
-    text-align: justify;
-  }
-
-    .aulas{
-          padding: 0px 20px 0px 20px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .aulas hr {
-    width: 100%;
-  }
-
-
-  .bloco-aulas {
-    flex-direction: column;
-  }
-
-  .bloco-aulas-textos {
-    margin-left: 0px;
-    width: 100%;
-  }
-
-  .bloco-aulas-textos h3 {
-    text-align: left;
-    padding-top: 20px;
-  }
-
-  .retangulo {
-    margin: 0 auto;
-    width: 100%;
-  }
-
-  /* -- Página Cursos -- */
-
-  .intro-cursos {
-    padding: 30px 0px 22px 40px;
-  }
-
-  #independencia {
-    margin: 0px;
-  }
-
-  .bloco-cursos {
-    flex-direction: column;
-  }
-
-  .cursos {
-    padding-top: 40px;
-  }
-
-  .bloco-cursos-imagem img {
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-  }
-
-  .bloco-cursos:last-child {
-    margin: 93px 0px 0px 0px;
-  }
-
-  .bloco-cursos-textos {
-    width: 90%;
-    padding: 0px 20px 30px 20px;
-    text-align: center;
-  }
-
-  .bloco-cursos-textos p {
-    font-size: 18px;
-    font-weight: 300;
-    padding: 0px 20px 30px 20px;
-    line-height: 21px;
-    width: 100%;
-  }
-
-  .bloco-cursos-imagem {
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-  }
-
-  .bloco-cursos-textos h3 {
-    padding: 10px 0px 10px 0px;
-  }
-
-  .bloco-cursos-textos p {
-    padding: 10px 0px 30px 0px;
-  }
-
-  .bloco-cursos:last-child {
-    padding-bottom: 80px;
-  }
-
-  /* -- Página Inicial -- */
+  /* -- Início Mobile -- */
 
   .intro-inicio {
     flex-direction: column;
@@ -279,7 +150,7 @@
   }
 
   .conheca .conheca-nossos-cursos-titulo h1 {
-      font-size: 35px;
+    font-size: 35px;
   }
 
   .bloco-conheca-nossos-cursos:first-child img {
@@ -364,7 +235,138 @@
     padding-bottom: 70px;
   }
 
-  /* Página de Contato */
+  /* Cursos Mobile  */
+
+  .intro-cursos {
+    padding: 30px 0px 22px 40px;
+  }
+
+  #independencia {
+    margin: 0px;
+  }
+
+  .bloco-cursos {
+    flex-direction: column;
+  }
+
+  .cursos {
+    padding-top: 40px;
+  }
+
+  .bloco-cursos-imagem img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .bloco-cursos:last-child {
+    margin: 93px 0px 0px 0px;
+  }
+
+  .bloco-cursos-textos {
+    width: 90%;
+    padding: 0px 20px 30px 20px;
+    text-align: center;
+  }
+
+  .bloco-cursos-textos p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 20px 30px 20px;
+    line-height: 21px;
+    width: 100%;
+  }
+
+  .bloco-cursos-imagem {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .bloco-cursos-textos h3 {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .bloco-cursos-textos p {
+    padding: 10px 0px 30px 0px;
+  }
+
+  .bloco-cursos:last-child {
+    padding-bottom: 80px;
+  }
+
+  /* Aula Mobile */
+
+  .cursos hr {
+    width: 100%;
+  }
+
+  .intro-curso {
+    flex-direction: column;
+    padding: 0px 20px 40px 20px;
+  }
+
+  .intro-curso-texto {
+    padding-top: 40px;
+  }
+
+  .intro-curso-texto h1 {
+    font-size: 40px;
+  }
+
+  .intro-curso-imagem {
+    margin-top: 40px;
+  }
+
+  .intro-curso-imagem img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    max-width: 300px;
+  }
+
+  .intro-curso-texto p {
+    width: 100%;
+    padding-bottom: unset;
+    text-align: justify;
+  }
+
+  .aulas {
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aulas hr {
+    width: 100%;
+  }
+
+  .bloco-aulas {
+    flex-direction: column;
+  }
+
+  .bloco-aulas-textos {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .bloco-aulas-textos h3 {
+    text-align: left;
+    padding-top: 20px;
+  }
+
+  .retangulo {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* Contato Mobile */
 
   .bloco-contato {
     flex-direction: column;
@@ -398,7 +400,7 @@
     justify-content: center;
   }
 
-  /* Página BLOG */
+  /* Blog Mobile */
 
   .intro-blog {
     flex-direction: column;
@@ -427,7 +429,7 @@
     grid-template-columns: none;
   }
 
-  /* Página Post */
+  /* Post Mobile */
 
   .intro-post {
     padding-top: 50px;
@@ -474,161 +476,7 @@
     padding-left: 40px;
   }
 
-  /* Blog Tablet */
-
-  .intro-blog {
-    flex-direction: row;
-    max-width: 600px;
-    padding: 40px 0px 80px 0px;
-  }
-
-  .intro-blog-texto p {
-    width: 100%;
-  }
-
-  .bloco-blog {
-    padding: 100px 20px 0px 20px;
-  }
-
-  .bloco-blog-textos p {
-    width: 100%;
-  }
-
-  .intro-blog-imagem {
-    margin: 0px 0px 0px;
-    width: 100%;
-    padding: 20px 0px 0px 40px;
-  }
-
-  .imagem-blog {
-    width: 100%;
-  }
-
-  .intro-blog-texto {
-    max-width: 60%;
-    padding-top: 40px;
-  }
-
-  /* Contato Tablet */
-
-  .bloco-contato {
-    flex-direction: row;
-  }
-
-  .bloco-contato input {
-    display: flex;
-    font-size: 16px;
-    font-weight: 400;
-    border-radius: 7px;
-    width: 70%;
-  }
-
-  /* Cursos Tablet */
-
-  .cursos hr {
-    width: 100%;
-  }
-
-  .intro-cursos {
-    padding: 61px 0px 55px 82px;
-  }
-
-  .bloco-cursos {
-    margin: 50px 0px 50px 0px;
-  }
-
-  .bloco-cursos:nth-child(3) {
-    margin: 50px 0px 50px 0px;
-  }
-
-  .bloco-cursos:last-child {
-    margin: 50px 0px 50px 0px;
-  }
-
-  #independencia {
-    margin: 0px;
-  }
-
-  .bloco-cursos-textos p {
-    width: 90%;
-  }
-
-  .bloco-cursos-imagem {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .bloco-cursos-imagem img {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-  }
-
-  .bloco-cursos:last-child {
-    margin: 93px 0px 100px 0px;
-  }
-
-  /* Aulas Tablet */
-
-  .intro-curso {
-    padding: 0px 30px 0px 30px;
-  }
-
-  .intro-curso img {
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    padding-top: 60px;
-  }
-
-  .intro-curso-texto p {
-    width: 460px;
-}
-
-
-  .aulas{
-    display: flex;
-    flex-direction: column;
-    padding: 20px 30px 0px 30px;
-  }
-
-  .aulas hr {
-    width: 100%;
-  }
-
-  .bloco-aulas {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .retangulo {
-    width: 100%;
-  }
-
-  .bloco-aulas-textos {
-    width: 90%;
-    margin-left: 0px;
-    padding: 40px 0px 0px 10px;
-}
-  /* Post Único Tablet */
-
-  .conteudo-post {
-    width: 100%;
-  }
-
-  .imagem-post {
-    width: 100%;
-  }
-
-  .intro-post {
-    padding: 60px 20px 0px 20px;
-  }
-
-  /* Página Inicial Tablet */
+  /* Início Tablet */
 
   .bloco-conheca-nossos-cursos-imagem:first-child img,
   .bloco-conheca-nossos-cursos-imagem:nth-child(2) img,
@@ -639,6 +487,7 @@
     margin-right: auto;
     justify-content: center;
   }
+
   .intro-inicio-imagem img {
     width: 80%;
     display: block;
@@ -662,6 +511,7 @@
   .bloco-conheca-nossos-cursos {
     padding: 0px 20px 0px 20px;
   }
+
   .conheca-nossos-cursos {
     max-width: unset;
   }
@@ -719,6 +569,179 @@
 
   .bloco-mais-conteudo-textos p {
     width: 100%;
+  }
+
+  /* Blog Tablet */
+
+  .intro-blog {
+    flex-direction: row;
+    max-width: 600px;
+    padding: 40px 0px 80px 0px;
+  }
+
+  .intro-blog-texto p {
+    width: 100%;
+  }
+
+  .bloco-blog {
+    padding: 100px 20px 0px 20px;
+  }
+
+  .bloco-blog-textos p {
+    width: 100%;
+  }
+
+  .intro-blog-imagem {
+    margin: 0px 0px 0px;
+    width: 100%;
+    padding: 20px 0px 0px 40px;
+  }
+
+  .imagem-blog {
+    width: 100%;
+  }
+
+  .intro-blog-texto {
+    max-width: 60%;
+    padding-top: 40px;
+  }
+
+  /* Contato Tablet */
+
+  .bloco-contato {
+    flex-direction: row;
+    padding: 0px 40px 0px 40px;
+  }
+
+  .bloco-contato input {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 7px;
+    width: 70%;
+  }
+
+  .formulario h1 {
+    margin-top: 65px;
+  }
+
+  .contat-imagem {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  /* Cursos Tablet */
+
+  .cursos hr {
+    width: 100%;
+  }
+
+  .intro-cursos {
+    padding: 61px 0px 55px 82px;
+  }
+
+  .bloco-cursos {
+    margin: 50px 0px 50px 0px;
+  }
+
+  .bloco-cursos:nth-child(3) {
+    margin: 50px 0px 50px 0px;
+  }
+
+  .bloco-cursos:last-child {
+    margin: 50px 0px 50px 0px;
+  }
+
+  #independencia {
+    margin: 0px;
+  }
+
+  .bloco-cursos-textos p {
+    width: 90%;
+  }
+
+  .bloco-cursos-imagem {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bloco-cursos-imagem img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .bloco-cursos:last-child {
+    margin: 93px 0px 100px 0px;
+  }
+
+  /* Aula Tablet */
+
+  .intro-curso {
+    padding: 0px 30px 0px 30px;
+  }
+
+  .intro-curso img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-top: 60px;
+  }
+
+  .intro-curso-texto p {
+    width: 460px;
+  }
+
+  .aulas {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 0px 30px;
+  }
+
+  .aulas hr {
+    width: 100%;
+  }
+
+  .bloco-aulas {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .retangulo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bloco-aulas-textos {
+    width: 90%;
+    margin-left: 0px;
+    padding: 0px 0px 0px 50px;
+  }
+
+  .bloco-aulas-imagem {
+    width: 100%;
+  }
+
+  /* Post Tablet */
+
+  .conteudo-post {
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagem-post {
+    width: 100%;
+  }
+
+  .intro-post {
+    padding: 60px 20px 0px 20px;
   }
 
   /* Footer Tablet */
