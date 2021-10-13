@@ -372,9 +372,17 @@ header .header-container ul li:nth-child(2) {
 }
 
 .bloco-cursos-textos h3 {
-  color: var(--rosa);
   font-size: 35px;
   font-weight: 700;
+}
+
+.bloco-cursos-textos h3 a {
+  color: var(--rosa);
+  text-decoration: none;
+}
+
+.bloco-cursos-textos h3 a:hover {
+  color: #c53063;
 }
 
 .bloco-cursos-textos p {
